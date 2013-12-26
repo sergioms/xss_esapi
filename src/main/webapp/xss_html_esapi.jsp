@@ -38,10 +38,10 @@ while (pNames.hasMoreElements()){
 
 <table>
 <tr>
-<td>Tarjeta de crédito</td><td> <input type="text" name="cc" value="" maxlength="16" size="16"/></td>
+<td>Credit card</td><td> <input type="text" name="cc" value="" maxlength="16" size="16"/></td>
 </tr>
 <tr>
-<td>Fecha caducidad (mm/yy)</td><td><input type="text" name="expMonth" value="" maxlength="2" size="2"/>
+<td>Exp Date (mm/yy)</td><td><input type="text" name="expMonth" value="" maxlength="2" size="2"/>
 /<input type="text" name="expYear" value="" maxlength="2" size="2"/></td>
 </tr>
 
@@ -51,7 +51,7 @@ while (pNames.hasMoreElements()){
 
 <tr>
 <td colspan="2">
-<input type="submit" value="Realizar Pago" name="button1" id="button1" />
+<input type="submit" value="Pay" name="button1" id="button1" />
 </td>
 </tr>
 </table>
